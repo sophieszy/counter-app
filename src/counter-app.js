@@ -57,7 +57,7 @@ export class counterApp extends DDDSuper(LitElement) {
         margin: var(--ddd-spacing-2);
         margin-top:var(--ddd-spacing-8); }
 
-
+        button:focus,
         button:hover 
         {
           background-color: var(--ddd-theme-default-navy40);
